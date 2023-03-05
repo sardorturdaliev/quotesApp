@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Quotesapp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="best_quotes">Best Quotes</string>
+    <string name="alone">Alone</string>
+    <string name="strq">Let me alone, and go in search of someone else</string>
+</resources>

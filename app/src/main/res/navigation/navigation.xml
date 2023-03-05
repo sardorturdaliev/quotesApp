@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.sardordev.quotesapp.screens.mainscreen.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_ditailFragment"
+            app:destination="@id/ditailFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_likedFragment"
+            app:destination="@id/likedFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ditailFragment"
+        android:name="com.sardordev.quotesapp.screens.detailscreen.DitailFragment"
+        android:label="fragment_ditail"
+        tools:layout="@layout/fragment_ditail" />
+    <fragment
+        android:id="@+id/likedFragment"
+        android:name="com.sardordev.quotesapp.screens.likedscreen.LikedFragment"
+        android:label="fragment_liked"
+        tools:layout="@layout/fragment_liked" />
+
+
+</navigation>
